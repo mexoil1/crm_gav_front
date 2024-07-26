@@ -1,0 +1,74 @@
+/* MetricPage.css */
+
+/* Общие стили для контейнера страницы */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdf6f6; /* Нежно розовый фон страницы */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили заголовка */
+h3 {
+    color: #d76e85; /* Цвет заголовка */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Стили для формы ввода */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Стили для метки и поля ввода */
+label {
+    font-family: 'Arial', sans-serif;
+    color: #d76e85; /* Цвет метки */
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #d76e85; /* Цвет границы поля ввода */
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    outline: none;
+    margin-bottom: 10px; /* Расстояние между полем ввода и кнопкой */
+}
+
+input::placeholder {
+    color: #d76e85; /* Цвет плейсхолдера */
+}
+
+/* Стили для кнопки отправки формы */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d76e85; /* Цвет кнопки */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b95b72; /* Цвет кнопки при наведении */
+}
+
+/* Стили для графика */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

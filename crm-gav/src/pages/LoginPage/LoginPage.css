@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f1f3; /* Нежно-розовый фон */
+    color: #333; /* Основной текст */
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #ffffff; /* Белый фон для формы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h3 {
+    margin-bottom: 1.5rem;
+    color: #d45d79; /* Темный розовый цвет заголовка */
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: left;
+    color: #d45d79; /* Темный розовый для текста меток */
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: calc(100% - 20px); /* Поля ввода занимают всю ширину, за вычетом padding */
+    padding: 0.5rem;
+    margin: 0 auto; /* Центрирование полей ввода */
+    border: 1px solid #d45d79; /* Розовая рамка */
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fbe4ea; /* Нежно-розовый цвет фона */
+    transition: border 0.3s;
+}
+
+.login-container input[type="email"]:focus,
+.login-container input[type="password"]:focus {
+    border-color: #b83d58; /* Более темный розовый при фокусе */
+    outline: none;
+}
+
+.login-container button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #d45d79; /* Темно-розовый цвет кнопки */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #b83d58; /* Более темный розовый при наведении */
+}

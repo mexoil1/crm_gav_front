@@ -1,0 +1,75 @@
+/* ProductEdit.css */
+
+/* Общие стили для контейнера страницы */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdf6f6; /* Нежно розовый фон страницы */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили заголовка */
+h3 {
+    color: #d76e85; /* Цвет заголовка */
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Стили формы */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Расстояние между элементами формы */
+}
+
+/* Стили для меток */
+label {
+    font-size: 16px;
+    color: #d76e85; /* Цвет меток */
+    display: flex;
+    flex-direction: column; /* Расположение меток и полей ввода друг под другом */
+    gap: 5px; /* Расстояние между меткой и полем ввода */
+}
+
+/* Стили для текстовых и файловых полей ввода */
+input[type="text"],
+input[type="file"],
+input[type="checkbox"] {
+    padding: 10px;
+    border: 1px solid #d76e85; /* Цвет границы */
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Стили для чекбокса */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Стили для кнопок */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d76e85; /* Цвет кнопок */
+}
+
+button:hover {
+    background-color: #b95b72; /* Цвет кнопок при наведении */
+}
+
+/* Стили для изображения */
+img {
+    border: 1px solid #d76e85; /* Цвет границы изображения */
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}

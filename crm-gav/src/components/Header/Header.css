@@ -1,0 +1,54 @@
+/* Header.css */
+
+/* Общие стили для хедера */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8d0d0; /* Нежно розовый фон хедера */
+    border-bottom: 2px solid #d76e85; /* Розовая линия снизу */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для логотипа */
+.logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d76e85; /* Розовый цвет логотипа */
+}
+
+/* Стили для текста логотипа */
+.text-logo {
+    display: inline-block;
+}
+
+/* Стили для навигации */
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Расстояние между пунктами меню */
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для ссылок навигации */
+.navigation a {
+    text-decoration: none;
+    color: #d76e85; /* Розовый цвет текста ссылок */
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Стили для ссылок навигации при наведении */
+.navigation a:hover {
+    color: #b95b72; /* Тёмно-розовый цвет при наведении */
+}
+
+/* Стили для активного пункта меню */
+.navigation a.active {
+    font-weight: bold;
+    color: #b95b72; /* Цвет активного пункта меню */
+}
